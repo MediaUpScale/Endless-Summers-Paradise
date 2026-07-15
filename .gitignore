@@ -1,0 +1,43 @@
+﻿# ── Secrets ──────────────────────────────────────────────────────────────────
+.env
+
+# ── Python ───────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+env/
+
+# ── Cursor / IDE ─────────────────────────────────────────────────────────────
+.cursor_local/
+.cursorignore
+.cursorindexingignore
+
+# ── Heavy media assets ────────────────────────────────────────────────────────
+*.mp4
+*.mp3
+*.wav
+*.aac
+*.mov
+*.avi
+*.png
+*.jpg
+*.jpeg
+
+# ── Production render folders (large binary output) ───────────────────────────
+Endless_Summers_Paradise - Production/
+_bkp_version/
+
+# ── Factory runtime output ────────────────────────────────────────────────────
+FACTORY_OUTPUT/
+
+# ── OS noise ─────────────────────────────────────────────────────────────────
+Thumbs.db
+.DS_Store
+desktop.ini
